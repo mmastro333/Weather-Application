@@ -1,5 +1,8 @@
 ## Weather Application
 
+This application serves mainly as a simple demo of using a LangChain tool with a LangChain agent.  Though the the use Langchain is a bit superflous here as far as 
+the practical use of the Open-Meteo API, it works well for educational purposes as a simplified example.
+
 This is a simple desktop weather assistant built with Python, `customtkinter`, `requests`, and a LangChain agent.  
 You type a city (for example `Trenton, NJ`) into the window, and the app looks up the city’s coordinates via the Open‑Meteo geocoding API, fetches the current conditions, and then has an LLM agent respond with a friendly, human‑readable sentence such as:
 
